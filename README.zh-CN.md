@@ -30,7 +30,15 @@
 
 ## 安装
 
-使用 Codex 自带的 GitHub skill 安装脚本：
+### 方式一：直接复制命令安装（推荐）
+
+如果你平时会打开终端，这是最省事的方式。
+
+1. 在 Mac 上打开“终端”。
+如果你不知道在哪里打开，可以按 `Command + Space`，输入“终端”，然后回车。
+2. 把下面这整段命令完整复制进去。
+3. 按一次回车，等它安装完成。
+4. 重启 Codex。
 
 ```bash
 python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
@@ -38,13 +46,24 @@ python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github
   --path tailor-resume
 ```
 
-或者手动安装：
+安装完成后，`tailor-resume` 会被放到你的 `~/.codex/skills/` 目录里。
 
-```bash
-cp -R tailor-resume ~/.codex/skills/
-```
+### 方式二：手动安装
 
-安装完成后，重启 Codex。
+如果你不想碰命令行，也可以手动复制文件：
+
+1. 点击这个仓库右上角的 `Code`。
+2. 选择 `Download ZIP` 下载压缩包。
+3. 解压后，你会看到一个叫 `tailor-resume` 的文件夹。
+4. 把这个文件夹复制到你电脑上的 `~/.codex/skills/` 目录里。
+5. 重启 Codex。
+
+如果你不知道 `~/.codex/skills/` 在哪里：
+
+1. 在 Finder 顶部菜单点 `前往`。
+2. 选择 `前往文件夹...`。
+3. 输入 `~/.codex/skills/`。
+4. 把 `tailor-resume` 文件夹拖进去。
 
 ## 小白友好用法
 
