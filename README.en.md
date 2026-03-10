@@ -48,20 +48,20 @@ Restart Codex after installation.
 
 ## Beginner-Friendly Usage
 
-You do not need to memorize a strict command format. Just talk to Codex naturally and tell it where your resumes are and what job you are targeting.
+You do not need to memorize a strict command format. Just talk to Codex naturally, ask it to use `tailor-resume`, and tell it where your resumes are and where the JD is.
 
 For example:
 
 ```text
-Use $tailor-resume. My resumes are in ~/Documents/resumes/. Build one experience pool from all of them, compare it against this JD, ask me about any missing but important experience, and generate a one-page resume in Word.
+Help me use $tailor-resume to tailor my resume. My resumes are in ~/Documents/resumes/. Build one experience pool from all of them, compare it against this JD, ask me about any missing but important experience, and generate a one-page resume in Word.
 ```
 
 ```text
-Use $tailor-resume. I am applying to several jobs. My resumes are in ~/Documents/resumes/ and my JD screenshots are in ~/Documents/jd-screenshots/. Analyze the gaps once, then generate a tailored resume for each job.
+Help me use $tailor-resume to tailor my resume. I am applying to several jobs. My resumes are in ~/Documents/resumes/ and my JD screenshots are in ~/Documents/jd-screenshots/. Analyze the gaps once, then generate a tailored resume for each job.
 ```
 
 ```text
-Use $tailor-resume. Tailor my resume for this job and reuse the formatting from ~/Documents/resumes/final-resume.docx. Here is the JD link: https://example.com/job/12345
+Help me use $tailor-resume to tailor my resume. My resumes are in ~/Documents/resumes/, and please reuse the formatting from ~/Documents/resumes/final-resume.docx. Here is the JD link: https://example.com/job/12345
 ```
 
 ## Notes

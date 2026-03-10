@@ -48,20 +48,20 @@ cp -R tailor-resume ~/.codex/skills/
 
 ## 小白友好用法
 
-装好以后，不需要背参数。你就像平时跟 Codex 说话一样，把“简历在哪”和“目标 JD 是什么”告诉它就行。
+装好以后，不需要背参数。你就像平时跟 Codex 说话一样，直接告诉它“帮我用 `tailor-resume` 改简历”，再把“简历放在哪”和“JD 放在哪”说清楚就行。
 
 你可以直接这样说：
 
 ```text
-使用 $tailor-resume，把 ~/Documents/简历库/ 里的所有简历都整理成经历池，再根据下面这个产品经理 JD 帮我生成一份一页中文简历。JD 如下：...
+帮我用 $tailor-resume 改简历。我的简历都放在 ~/Documents/简历库/，请先把所有版本整理成经历池，再根据下面这个产品经理 JD 帮我生成一份一页中文简历。JD 如下：...
 ```
 
 ```text
-使用 $tailor-resume，我有多个岗位要投。简历在 ~/Documents/resumes/，JD 截图都在 ~/Documents/jd-screenshots/。请先统一分析 gap，再分别生成每个岗位的定制简历。
+帮我用 $tailor-resume 改简历。我有多个岗位要投，简历在 ~/Documents/resumes/，JD 截图都在 ~/Documents/jd-screenshots/。请先统一分析 gap，再分别生成每个岗位的定制简历。
 ```
 
 ```text
-使用 $tailor-resume，帮我针对这个岗位改简历，并且沿用 ~/Documents/resumes/终版简历.docx 的排版风格。JD 链接在这里：https://example.com/job/12345
+帮我用 $tailor-resume 改简历。我的简历在 ~/Documents/resumes/，并且请沿用 ~/Documents/resumes/终版简历.docx 的排版风格。JD 链接在这里：https://example.com/job/12345
 ```
 
 ## 说明
