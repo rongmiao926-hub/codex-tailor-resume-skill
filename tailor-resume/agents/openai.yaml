@@ -1,0 +1,7 @@
+interface:
+  display_name: "简历定制"
+  short_description: "根据简历库、职位描述和补充经历生成定制化简历并输出文档"
+  default_prompt: "使用 $tailor-resume，根据我提供的简历材料和目标 JD，补问缺失信息并生成一份定制简历。"
+
+policy:
+  allow_implicit_invocation: true
