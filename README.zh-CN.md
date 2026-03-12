@@ -1,5 +1,19 @@
 # Tailor Resume for Codex
 
+> ✨ 把多版本简历和一个或多个 JD，整理成真正为目标岗位定制的 Word 简历。
+
+## 🚀 三步上手
+
+1. 先安装 Codex App
+2. 再安装这个 `tailor-resume` skill
+3. 直接告诉它：简历放在哪，JD 放在哪，请它帮你改简历
+
+例如：
+
+```text
+帮我用 $tailor-resume 改简历。我的简历放在 ~/Documents/resumes/，JD 放在 ~/Documents/jds/，请先整理经历池，再生成一份针对这个岗位的中文 Word 简历。
+```
+
 ## ⚠️ 先说明
 
 这不是 Codex App 本体，而是一个要安装到 Codex 里面使用的 skill。
@@ -18,7 +32,7 @@
 
 如果你不确定自己的账号能不能用 Codex，最稳妥的方式是直接看 OpenAI 官方 Codex 页面上的最新说明。
 
-这是一个给 Codex 用的简历定制 skill。
+这是一个给 Codex 用的简历定制 skill。🎯
 
 你可以把自己不同阶段、不同方向、不同版本的简历一起交给它，再把一个或一批目标岗位 JD 丢进去。它会先把所有简历内容整理成一个完整的“经历池”，再对照 JD 找 gap、主动追问你可能遗漏但其实做过的经历，最后按具体岗位重写简历，并输出可继续编辑的 Word 文档。
 

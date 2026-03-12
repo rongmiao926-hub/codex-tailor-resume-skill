@@ -1,5 +1,19 @@
 # Tailor Resume for Codex
 
+> ✨ Turn multiple resume versions and one or more JDs into a Word resume that is actually tailored for the target role.
+
+## 🚀 Get Started In 3 Steps
+
+1. Install the Codex app
+2. Install this `tailor-resume` skill
+3. Tell it where your resumes are, where the JD is, and ask it to tailor the resume
+
+For example:
+
+```text
+Help me use $tailor-resume to tailor my resume. My resumes are in ~/Documents/resumes/, my JDs are in ~/Documents/jds/, and I want a Chinese Word resume for this role.
+```
+
 ## ⚠️ Before you start
 
 This repository is not the Codex app itself. It is a skill that needs to be installed inside Codex.
@@ -18,7 +32,7 @@ If you do not have Codex yet:
 
 If you are unsure whether your account includes Codex access, check the latest availability details on the official Codex page.
 
-This is a Codex skill for tailoring resumes to specific job descriptions.
+This is a Codex skill for tailoring resumes to specific job descriptions. 🎯
 
 You can feed it multiple versions of your resume from different time periods or career directions, plus one or many target JDs. It builds a single experience pool from all resume versions, compares that pool against the JD requirements, asks follow-up questions to uncover missing but relevant evidence, rewrites your experience for the exact role, and outputs an editable Word document.
 
